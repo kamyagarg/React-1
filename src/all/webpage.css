@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'lato';
+}
+  
+/* header{
+background-color:#EAECEE;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.5rem 8rem;
+box-sizing: border-box;
+border-bottom: 1px solid ;
+}
+.logo{
+width: 3rem;
+cursor: pointer;
+}
+.logo:active { 
+transform: scale(0.90);
+}
+.options{
+font-weight: bold;
+display: flex;
+font-size: 0.75rem;
+box-sizing: border-box;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+ul{
+display: flex;
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+}
+
+li{
+padding: 1rem 1rem 1rem 0;
+box-sizing: border-box;
+}
+li:active { 
+transform: scale(0.90);
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.right-icons{
+display: flex;
+padding: 1rem 0;
+}
+.icons-all:active { 
+transform: scale(0.90);
+}
+
+.arrow-icon{
+width: 0.5rem;
+}
+
+.icons-all{
+width: 0.75rem;
+padding: 0 0 0 1rem;
+} */
+
+main{
+display: flex;
+margin: 2rem 8rem;
+}
+.box{
+border: 1px solid;
+border-radius: 8px;
+display: flex;
+padding: 1rem;
+margin: 1rem 0;
+height: 18.75rem;
+width: 33.33%;
+flex-grow: 1;
+}
+.margin-extra{
+margin: 1rem;
+}
+
+footer{
+background-color: gray;
+display: flex;
+justify-content: space-between;
+padding: 1rem 8rem;
+margin: 1rem 8rem;
+border-radius: 8px;
+align-items: center;
+}
+
+.text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.subs{
+font-size: 1.60rem;
+}
+.updated{
+
+}
+.search{
+
+}
+input{
+border-radius: 2rem;
+height: 2rem;
+width: 20.5rem;
+border: none;
+padding: 0.5rem 2rem;
+outline: none;
+}
+
+
+@media only screen and (max-width: 800px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box{
+        width: 100%;
+
+    }
+
+    .margin-extra{
+        margin: 0;
+    }
+    .text{
+        margin-bottom: 0.5rem;
+    }
+    .search{
+        margin-top: 0.5rem;
+    }
+}
